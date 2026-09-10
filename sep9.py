@@ -109,15 +109,10 @@ fn(*c,**d)
 
 '''
 def fn(*a, **b):
-    print("a =", a)  # tuple of positional arguments
-    print("b =", b)  # dictionary of keyword arguments
-
-
-# Data to pass
+    print("a =", a)  
+    print("b =", b) 
 c = [10, 20]
 d = {"x": 1, "y": 2}
-
-# Call the function by unpacking
 fn(*c, **d)
 
 
